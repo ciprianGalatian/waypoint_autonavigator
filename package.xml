@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>waypoint_autonavigator</name>
+  <version>0.0.0</version>
+  <description>Package for waypoint navigation and obstacle avoidance in ROS2.</description>
+
+  <maintainer email="abd@todo.todo">abd</maintainer>
+  <license>Apache 2.0</license>
+
+  <depend>rclpy</depend>
+  <depend>nav2_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>tf2_ros</depend>
+  <depend>transforms3d</depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
